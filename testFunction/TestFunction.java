@@ -3,17 +3,17 @@ package testFunction;
 public class TestFunction {
     
     //instance variables
-    private static int x;
+    int x;
 
     // class constructor
     public TestFunction()
     {
         // initialise instance variables
-        x = 0;
+        x = 5;
     }
 
     // test function
-    public static int sampleMethod(int y)
+    public int addX(int y)
     {
         int sum = x + y;
         System.out.println("The sum is: " + sum);
@@ -23,7 +23,8 @@ public class TestFunction {
     // main method
     public static void main(String args[])
     {
-        sampleMethod(x);
+        TestFunction classObj = new TestFunction(); //call the constructor
+        int y = 10;
+        classObj.addX(y);
     }
-
 }
