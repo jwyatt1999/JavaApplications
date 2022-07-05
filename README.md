@@ -2,6 +2,10 @@
 
 The purpose of this repo is to write and test Java code to learn the basics of Java and get experience coding!
 
+## Exercises
+
+https://code-exercises.com/
+
 ## TestFunction
 
 This file is designed to be a barebones testing ground for specific functions
